@@ -1,0 +1,43 @@
+// Footer itself
+.site-footer {
+  @include clearfix();
+  position: relative;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: $brand-gray;
+  border-top: 1px solid #eee;
+
+  // Centered icon
+  .octicon-mark-github {
+    position: absolute;
+    top: 38px;
+    left: 50%;
+    height: 24px;
+    width: 24px;
+    margin-left: -12px; // half the width for proper centering
+    font-size: 24px;
+    color: #ccc;
+
+    &:hover {
+      color: #bbb;
+    }
+  }
+}
+
+// Links for legal, privacy, etc
+.site-footer-links {
+  margin: 0;
+  list-style: none;
+
+  li {
+    display: inline-block;
+    line-height: 16px;
+
+    + li {
+      margin-left: 10px;
+    }
+  }
+}

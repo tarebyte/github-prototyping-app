@@ -1,0 +1,455 @@
+$header-bg: #f5f5f5;
+$header-border: #e5e5e5;
+$header-link-color: #333;
+$header-link-hover-color: $brand-blue;
+
+$header-enterprise-bg: #2a2c2e;
+$header-enterprise-border: darken(#2a2c2e, 10%);
+$header-enterprise-link-color: #c8c8ca;
+$header-enterprise-link-hover-color: #fafafa;
+
+
+//
+// Header wrapper
+//
+
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-width: 1000px;
+  background-color: $header-bg;
+  border-bottom: 1px solid $header-border;
+}
+
+.header-logged-out {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.read-only-mode-banner {
+  background-color: #f8e45f;
+  border-bottom-color: darken(#f8e45f, 10%);
+  text-align: center;
+}
+
+
+//
+// Logos
+//
+
+// Blacktocat logo
+.header-logo-invertocat {
+  float: left;
+  margin-right: 10px;
+  margin-left: -2px;
+  color: $header-link-color;
+  // Prevent zoomed in Chrome from breaking it onto two lines
+  white-space: nowrap;
+
+  .octicon-mark-github {
+    float: left;
+    width: 28px;
+    height: 28px;
+    font-size: 28px;
+  }
+
+  &:hover {
+    color: $header-link-hover-color;
+    text-decoration: none;
+  }
+}
+
+// Subbrand in the logo
+.logo-subbrand {
+  float: left;
+  margin-left: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 28px;
+}
+
+// Wordmark logo
+.header-logo-wordmark {
+  position: relative;
+  float: left;
+  height: 26px;
+  margin-right: 15px;
+  color: $header-link-color;
+
+  &:hover {
+    color: $header-link-hover-color;
+  }
+
+  .octicon-logo-github {
+    height: 26px;
+    font-size: 32px;
+  }
+}
+
+
+//
+// Notifications
+//
+
+.notification-indicator {
+  .mail-status {
+    background-image: linear-gradient(lighten($brand-blue, 15%), $brand-blue);
+
+    position: absolute;
+    top: -2px;
+    right: 2px;
+    z-index: 2;
+    display: none;
+    width: 14px;
+    height: 14px;
+    color: #fff;
+    text-align: center;
+    background-clip: padding-box;
+    border-radius: 50%;
+    border: 2px solid #f3f3f3;
+
+    &.unread {
+      display: inline-block;
+    }
+  }
+
+  // Unread in repo
+  &:hover .mail-status {
+    background-color: $brand-blue;
+  }
+}
+
+
+//
+// Search
+//
+
+.site-search {
+  position: relative;
+  float: left;
+
+  form {
+    position: relative;
+    float: left;
+    width: 360px;
+    margin-right: 10px;
+  }
+
+  .form-control {
+    position: relative;
+    width: 100%;
+    min-height: 26px; // Required for Firefox to match Webkit's sizing
+    padding: 2px;
+    font-size: 12px;
+    display: block;
+    line-height: 17px;
+  }
+
+  .chromeless-input {
+    background: none;
+    border: 0;
+    box-shadow: none;
+    min-height: 22px;
+    display: inline-block;
+    font-size: 12px;
+    padding: 3px 5px;
+    line-height: 16px;
+    width: 250px;
+
+    &:focus {
+      border: 0;
+      box-shadow: none;
+    }
+
+    &::-ms-clear {
+      display: none;
+    }
+  }
+
+  .scope-badge {
+    display: none;
+    padding: 0 5px;
+    line-height: 22px;
+    font-size: 12px;
+    font-weight: normal;
+    color: $brand-gray;
+    background-color: #eee;
+    border-radius: 2px;
+    vertical-align: middle;
+  }
+
+  &.repo-scope {
+    .scope-badge {
+      display: inline-block;
+    }
+
+    .form-control.focus .scope-badge {
+      background-color: lighten($brand-blue, 42%);
+      color: $brand-blue;
+    }
+  }
+}
+
+
+//
+// Header navigations
+//
+
+// Main site nav
+.header-nav {
+  list-style: none;
+}
+
+.header-nav-item {
+  float: left;
+
+  &.active {
+    .dropdown-menu-content {
+      display: block;
+    }
+
+    .tooltipped:before,
+    .tooltipped:after {
+      display: none;
+    }
+  }
+
+  .dropdown-menu {
+    margin-top: 13px;
+    width: 180px;
+  }
+}
+
+.header-nav-link {
+  display: block;
+  padding: 4px 8px;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 20px;
+  color: $header-link-color;
+
+  &:hover,
+  &:focus {
+    color: $header-link-hover-color;
+    text-decoration: none;
+
+    // Normally we shouldn't have to do this, but the latest Safari shits the bed
+    // when we mix CSS truncation and generated content (e.g., the caret above).
+    .dropdown-caret {
+      border-top-color: $header-link-hover-color;
+    }
+  }
+}
+
+// User nav in the top right
+.user-nav {
+  // Line up the right edge of the icon with the right edge of the container
+  margin-right: -8px;
+
+  .header-nav-link {
+    // Required to make all the custom icon sizes line up
+    height: 28px;
+  }
+
+  .octicon {
+    width: 16px;
+    height: 18px;
+    text-align: center;
+  }
+
+  .octicon-plus {
+    padding-top: 1px;
+    margin-right: 1px;
+  }
+
+  .avatar {
+    float: left;
+    margin-right: 5px;
+  }
+}
+
+// Mention and truncate the current user's username in the dropdown
+.header-nav-current-user {
+  padding-bottom: 0;
+  font-size: inherit;
+
+  .css-truncate-target {
+    max-width: 100%;
+  }
+}
+
+
+//
+// Logged out buttons in the header
+//
+
+.header-actions {
+  float: right;
+  margin-top: -3px;
+  margin-bottom: -3px;
+
+  .btn {
+    margin-left: 5px;
+  }
+}
+
+
+//
+// Enterprise overrides
+//
+
+.enterprise {
+  .header {
+    background-color: $header-enterprise-bg;
+    border-bottom-color: $header-enterprise-border;
+  }
+
+  // Add contrast lighting effects when server stats bar is shown
+  .is-stats & .header {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  }
+
+  // Link colors and shadows
+  .header-logo-wordmark,
+  .header-logo-invertocat,
+  .header-nav-link {
+    color: $header-enterprise-link-color;
+
+    // Redeclare hover color since we're getting more specific with above rules
+    &:hover,
+    &:focus {
+      color: $header-enterprise-link-hover-color;
+    }
+  }
+
+  .header-nav-link {
+    &:hover,
+    &:focus {
+      // Normally we shouldn't have to do this, but the latest Safari shits the bed
+      // when we mix CSS truncation and generated content (e.g., the caret above).
+      .dropdown-caret {
+        border-top-color: $header-enterprise-link-hover-color;
+      }
+    }
+  }
+
+  .notification-indicator .mail-status {
+    border-color: #2a2c2e;
+  }
+
+  .notification-indicator:hover .mail-status {
+    background-color: #d26911;
+  }
+
+  // Logged out buttons
+  .header-actions .btn {
+    border: 0;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 1px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  // Command bar tweaks
+  .site-search {
+    .scope-badge {
+      background-color: lighten($header-enterprise-bg, 20%);
+      color: $header-enterprise-link-color;
+    }
+
+    .form-control {
+      color: #fafafa;
+      background-color: lighten($header-enterprise-bg, 15%);
+      border-color: $header-enterprise-border;
+
+      &.focus {
+        background-color: lighten($header-enterprise-bg, 17.5%);
+        border-color: #000;
+        box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.075);
+
+        .scope-badge {
+          background-color: lighten($header-enterprise-bg, 25%);
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .chromeless-input {
+    color: #fff;
+  }
+}
+
+// Unsupported browser banner
+.unsupported-browser {
+  padding: 15px 0;
+  color: #211e14;
+  background-image: linear-gradient(#feefae, #fae692);
+  border-bottom: 1px solid #b3a569;
+
+  .container {
+    background: url("/images/icons/ie-notice.png") no-repeat 0 5px;
+  }
+
+  h5 {
+    font-size: 13px;
+    margin: 5px 0 2px;
+    padding-left: 48px;
+  }
+
+  p {
+    margin: 0;
+    padding-left: 48px;
+  }
+
+  .btn {
+    float: right;
+    margin-top: 5px;
+    margin-left: 8px;
+  }
+}
+
+// Mobile banner
+.mobile-banner button.switch-to-mobile {
+  display: block;
+  width: 100%;
+  padding: 30px 0 45px;
+  border: 0;
+  background-color: #444;
+  color: #eaeaea;
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+
+  .mega-octicon {
+    position: relative;
+    top: -8px;
+    margin-right: 5px;
+    color: #ddd;
+    font-size: 48px;
+  }
+}
+
+.accessibility-aid {
+  height: 1px;
+  width: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+  position: absolute;
+  margin: 0;
+
+  &:focus {
+    height: auto;
+    width: auto;
+    clip: auto;
+    z-index: 1;
+    top: 0;
+    line-height: 49px;
+    padding: 0 10px;
+    background: #f5f5f5;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+
+    .is-stats & {
+      top: 34px;
+    }
+  }
+}
