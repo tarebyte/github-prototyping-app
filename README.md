@@ -33,8 +33,9 @@ With ruby installed (and ideally managed using [rbenv](https://github.com/rbenv/
 
 With Rails successfully installed, you should then clone this repository to a location of your choice on your machine:
 
-`git clone https://github.com/amosie/github-prototyping-app.git
-Run the server`
+`git clone https://github.com/amosie/github-prototyping-app.git`
+
+### Run the server
 
 In the command line, cd in to the repo you just cloned. To start the rails server, run:
 
