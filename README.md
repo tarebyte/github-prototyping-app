@@ -27,8 +27,9 @@ Rails can be installed using RubyGems, which requires ruby to be installed on yo
 
 With ruby installed (and ideally managed using [rbenv](https://github.com/rbenv/rbenv) you can then install Rails with RubyGems with the command:
 
-`gem install rails
-Clone this repo`
+`gem install rails`
+
+### Clone this repo
 
 With Rails successfully installed, you should then clone this repository to a location of your choice on your machine:
 
