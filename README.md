@@ -27,13 +27,15 @@ Rails can be installed using RubyGems, which requires ruby to be installed on yo
 
 With ruby installed (and ideally managed using [rbenv](https://github.com/rbenv/rbenv) you can then install Rails with RubyGems with the command:
 
-`gem install rails
-Clone this repo`
+`gem install rails`
+
+### Clone this repo
 
 With Rails successfully installed, you should then clone this repository to a location of your choice on your machine:
 
-`git clone https://github.com/amosie/github-prototyping-app.git
-Run the server`
+`git clone https://github.com/amosie/github-prototyping-app.git`
+
+### Run the server
 
 In the command line, cd in to the repo you just cloned. To start the rails server, run:
 
