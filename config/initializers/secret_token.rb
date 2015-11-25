@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-GovukPrototypingRails::Application.config.secret_key_base = '45ca7b1e6eb634d3a1bb207fd4ce2e8614dda8fc8851dee1c3f8143e14100f55a553492a90cc29bea2738b12129dae4b0e39c452def94b1e92a2b2eeacf91ff8'
+GithubPrototypingApp::Application.config.secret_key_base = '45ca7b1e6eb634d3a1bb207fd4ce2e8614dda8fc8851dee1c3f8143e14100f55a553492a90cc29bea2738b12129dae4b0e39c452def94b1e92a2b2eeacf91ff8'

@@ -1,0 +1,2423 @@
+  [1m[36m (1.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (1.3ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/amy" for 127.0.0.1 at 2015-11-24 21:00:31 +0000
+Processing by GithubController#index as HTML
+  Rendered github/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1510ms (Views: 1500.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-24 21:00:33 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-24 21:00:33 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-24 21:00:33 +0000
+
+
+Started GET "/assets/examples.js?body=1" for 127.0.0.1 at 2015-11-24 21:00:33 +0000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-11-24 21:00:33 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-24 21:00:33 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-24 21:00:33 +0000
+
+
+Started GET "/assets/octicons.woff" for 127.0.0.1 at 2015-11-24 21:00:33 +0000
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2015-11-24 21:00:33 +0000
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.6ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (36.5ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2015-11-24 21:01:10 +0000
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (10.9ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2015-11-24 21:01:10 +0000
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.4ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.6ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (10.6ms)
+
+
+Started GET "/github/" for 127.0.0.1 at 2015-11-24 21:01:19 +0000
+Processing by GithubController#index as HTML
+  Rendered github/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2015-11-24 21:01:27 +0000
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (22.5ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2015-11-24 21:01:27 +0000
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (12.7ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2015-11-24 21:01:54 +0000
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (12.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2015-11-24 21:01:55 +0000
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (26.5ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (39.5ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2015-11-24 21:02:02 +0000
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.6ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (13.4ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2015-11-24 21:02:02 +0000
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.6ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (10.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-24 21:02:05 +0000
+Processing by ExamplesController#index as HTML
+  Rendered examples/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 28ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2015-11-24 21:02:16 +0000
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (21.2ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2015-11-24 21:02:16 +0000
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.6ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (10.5ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2015-11-24 21:02:21 +0000
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (12.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2015-11-24 21:02:21 +0000
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.4ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2015-11-24 21:02:32 +0000
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (12.8ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2015-11-24 21:02:32 +0000
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (19.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-24 21:02:35 +0000
+Processing by ExamplesController#index as HTML
+  Rendered examples/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-24 21:03:13 +0000
+Processing by ExamplesController#index as HTML
+  Rendered examples/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-24 21:03:13 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-24 21:03:13 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-24 21:03:13 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-24 21:03:13 +0000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-11-24 21:03:13 +0000
+
+
+Started GET "/assets/examples.js?body=1" for 127.0.0.1 at 2015-11-24 21:03:13 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-24 21:03:13 +0000
+
+
+Started GET "/assets/octicons.woff" for 127.0.0.1 at 2015-11-24 21:03:13 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-24 21:03:55 +0000
+Processing by ExamplesController#index as HTML
+  Rendered examples/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-24 21:03:55 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-24 21:03:55 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-24 21:03:55 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-24 21:03:55 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-24 21:03:55 +0000
+
+
+Started GET "/assets/examples.js?body=1" for 127.0.0.1 at 2015-11-24 21:03:55 +0000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-11-24 21:03:55 +0000
+
+
+Started GET "/assets/octicons.woff" for 127.0.0.1 at 2015-11-24 21:03:55 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-24 21:03:58 +0000
+Processing by ExamplesController#index as HTML
+  Rendered examples/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-24 21:03:58 +0000
+
+
+Started GET "/assets/examples.js?body=1" for 127.0.0.1 at 2015-11-24 21:03:58 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-24 21:03:58 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-24 21:03:58 +0000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-11-24 21:03:58 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-24 21:03:58 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-24 21:03:58 +0000
+
+
+Started GET "/assets/octicons.woff" for 127.0.0.1 at 2015-11-24 21:03:58 +0000
+
+
+Started GET "/new" for 127.0.0.1 at 2015-11-24 21:04:00 +0000
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.2ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2015-11-24 21:04:00 +0000
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (11.6ms)
+
+
+Started GET "/github/" for 127.0.0.1 at 2015-11-24 21:04:06 +0000
+Processing by GithubController#index as HTML
+  Rendered github/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-24 21:04:07 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-24 21:04:07 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-24 21:04:07 +0000
+
+
+Started GET "/assets/examples.js?body=1" for 127.0.0.1 at 2015-11-24 21:04:07 +0000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-11-24 21:04:07 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-24 21:04:07 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-24 21:04:07 +0000
+
+
+Started GET "/assets/octicons.woff" for 127.0.0.1 at 2015-11-24 21:04:07 +0000
+
+
+Started GET "/github/" for 127.0.0.1 at 2015-11-24 21:05:10 +0000
+Processing by GithubController#index as HTML
+  Rendered github/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 47ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-24 21:05:10 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-24 21:05:10 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-24 21:05:10 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-24 21:05:10 +0000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-11-24 21:05:10 +0000
+
+
+Started GET "/assets/examples.js?body=1" for 127.0.0.1 at 2015-11-24 21:05:10 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-24 21:05:10 +0000
+
+
+Started GET "/assets/octicons.woff" for 127.0.0.1 at 2015-11-24 21:05:10 +0000
+
+
+Started GET "/new" for 127.0.0.1 at 2015-11-24 21:05:14 +0000
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.7ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (21.9ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2015-11-24 21:05:14 +0000
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (32.6ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (43.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-24 21:05:20 +0000
+Processing by ExamplesController#index as HTML
+  Rendered examples/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 12ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2015-11-24 21:05:22 +0000
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (17.4ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2015-11-24 21:05:22 +0000
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (13.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-24 21:05:25 +0000
+Processing by ExamplesController#index as HTML
+  Rendered examples/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-24 21:05:25 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-24 21:05:25 +0000
+
+
+Started GET "/assets/examples.js?body=1" for 127.0.0.1 at 2015-11-24 21:05:25 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-24 21:05:25 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-24 21:05:25 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-24 21:05:25 +0000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-11-24 21:05:25 +0000
+
+
+Started GET "/assets/octicons.woff" for 127.0.0.1 at 2015-11-24 21:05:25 +0000
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2015-11-24 21:07:14 +0000
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.3ms)
+
+
+Started GET "/dashboards/audit-log" for 127.0.0.1 at 2015-11-24 21:07:46 +0000
+
+ActionController::RoutingError (No route matches [GET] "/dashboards/audit-log"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (47.7ms)
+
+
+Started GET "/dashboards/audit-log?utf8=%E2%9C%93&q=logged+in" for 127.0.0.1 at 2015-11-24 21:07:46 +0000
+
+ActionController::RoutingError (No route matches [GET] "/dashboards/audit-log"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (11.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-24 21:07:52 +0000
+Processing by ExamplesController#index as HTML
+  Rendered examples/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-24 21:07:52 +0000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-11-24 21:07:52 +0000
+
+
+Started GET "/assets/examples.js?body=1" for 127.0.0.1 at 2015-11-24 21:07:52 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-24 21:07:52 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-24 21:07:52 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-24 21:07:52 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-24 21:07:52 +0000
+
+
+Started GET "/assets/octicons.woff" for 127.0.0.1 at 2015-11-24 21:07:52 +0000
+
+
+Started GET "/assets/octicons.woff?v=396334ee3da78f4302d25c758ae3e3ce5dc3c97d" for 127.0.0.1 at 2015-11-24 21:07:52 +0000
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2015-11-24 21:07:52 +0000
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (14.1ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2015-11-24 21:08:00 +0000
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (16.1ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2015-11-24 21:08:00 +0000
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.6ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.4ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.6ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (9.5ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2015-11-24 21:10:08 +0000
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (19.2ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2015-11-24 21:10:08 +0000
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.3ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2015-11-24 21:10:51 +0000
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (20.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-24 21:10:51 +0000
+Processing by ExamplesController#index as HTML
+  Rendered examples/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 25ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-24 21:10:51 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-24 21:10:52 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-24 21:10:52 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-24 21:10:52 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-24 21:10:52 +0000
+
+
+Started GET "/assets/examples.js?body=1" for 127.0.0.1 at 2015-11-24 21:10:52 +0000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-11-24 21:10:52 +0000
+
+
+Started GET "/assets/octicons.woff" for 127.0.0.1 at 2015-11-24 21:10:52 +0000
+
+
+Started GET "/assets/octicons.woff?v=396334ee3da78f4302d25c758ae3e3ce5dc3c97d" for 127.0.0.1 at 2015-11-24 21:10:52 +0000
+
+
+Started GET "/dashboards/audit-log" for 127.0.0.1 at 2015-11-24 21:10:56 +0000
+
+ActionController::RoutingError (No route matches [GET] "/dashboards/audit-log"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (18.6ms)
+
+
+Started GET "/github/" for 127.0.0.1 at 2015-11-24 21:23:30 +0000
+Processing by GithubController#index as HTML
+  Rendered github/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::MissingTemplate - Missing partial github/header, application/header with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/amywhitney/github-prototyping-app/app/views"
+:
+  (gem) actionpack-4.0.1/lib/action_view/template/error.rb:48:in `initialize'
+  (gem) actionpack-4.0.1/lib/action_view/path_set.rb:46:in `find'
+  (gem) actionpack-4.0.1/lib/action_view/lookup_context.rb:115:in `find'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/partial_renderer.rb:383:in `find_template'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/partial_renderer.rb:377:in `find_partial'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/partial_renderer.rb:263:in `render'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/renderer.rb:47:in `render_partial'
+  (gem) actionpack-4.0.1/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+  app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb___4025440042966977760_70277377958400'
+  (gem) actionpack-4.0.1/lib/action_view/template.rb:143:in `block in render'
+  (gem) activesupport-4.0.1/lib/active_support/notifications.rb:161:in `instrument'
+  (gem) actionpack-4.0.1/lib/action_view/template.rb:141:in `render'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:17:in `render'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/renderer.rb:42:in `render_template'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/renderer.rb:23:in `render'
+  (gem) actionpack-4.0.1/lib/abstract_controller/rendering.rb:127:in `_render_template'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  (gem) actionpack-4.0.1/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  (gem) actionpack-4.0.1/lib/abstract_controller/rendering.rb:97:in `render'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/rendering.rb:16:in `render'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  (gem) activesupport-4.0.1/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  (gem) activesupport-4.0.1/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  (gem) activerecord-4.0.1/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  (gem) actionpack-4.0.1/lib/abstract_controller/base.rb:189:in `process_action'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  (gem) actionpack-4.0.1/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  (gem) activesupport-4.0.1/lib/active_support/callbacks.rb:403:in `_run__2206084931358990469__process_action__callbacks'
+  (gem) activesupport-4.0.1/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  (gem) actionpack-4.0.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  (gem) activesupport-4.0.1/lib/active_support/notifications.rb:159:in `block in instrument'
+  (gem) activesupport-4.0.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  (gem) activesupport-4.0.1/lib/active_support/notifications.rb:159:in `instrument'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  (gem) activerecord-4.0.1/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  (gem) actionpack-4.0.1/lib/abstract_controller/base.rb:136:in `process'
+  (gem) actionpack-4.0.1/lib/abstract_controller/rendering.rb:44:in `process'
+  (gem) actionpack-4.0.1/lib/action_controller/metal.rb:195:in `dispatch'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  (gem) actionpack-4.0.1/lib/action_controller/metal.rb:231:in `block in action'
+  (gem) actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  (gem) actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:48:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/journey/router.rb:71:in `block in call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/journey/router.rb:59:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:680:in `call'
+  (gem) rack-1.5.2/lib/rack/etag.rb:23:in `call'
+  (gem) rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+  (gem) rack-1.5.2/lib/rack/head.rb:11:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/flash.rb:241:in `call'
+  (gem) rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+  (gem) rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  (gem) activerecord-4.0.1/lib/active_record/query_cache.rb:36:in `call'
+  (gem) activerecord-4.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  (gem) activerecord-4.0.1/lib/active_record/migration.rb:369:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  (gem) activesupport-4.0.1/lib/active_support/callbacks.rb:373:in `_run__1909039458617566694__call__callbacks'
+  (gem) activesupport-4.0.1/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  (gem) better_errors-0.8.0/lib/better_errors/middleware.rb:84:in `protected_app_call'
+  (gem) better_errors-0.8.0/lib/better_errors/middleware.rb:79:in `better_errors_call'
+  (gem) better_errors-0.8.0/lib/better_errors/middleware.rb:56:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  (gem) railties-4.0.1/lib/rails/rack/logger.rb:38:in `call_app'
+  (gem) railties-4.0.1/lib/rails/rack/logger.rb:20:in `block in call'
+  (gem) activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  (gem) activesupport-4.0.1/lib/active_support/tagged_logging.rb:25:in `tagged'
+  (gem) activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `tagged'
+  (gem) railties-4.0.1/lib/rails/rack/logger.rb:20:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  (gem) rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  (gem) rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  (gem) activesupport-4.0.1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  (gem) rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/static.rb:64:in `call'
+  (gem) rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  (gem) railties-4.0.1/lib/rails/engine.rb:511:in `call'
+  (gem) railties-4.0.1/lib/rails/application.rb:97:in `call'
+  (gem) rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  (gem) rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  (gem) rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/70277386241180/variables" for 127.0.0.1 at 2015-11-24 21:23:30 +0000
+
+
+Started GET "/github/" for 127.0.0.1 at 2015-11-24 21:24:19 +0000
+Processing by GithubController#index as HTML
+  Rendered github/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_header.html.erb (0.4ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-24 21:24:19 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-24 21:24:19 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-24 21:24:19 +0000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-11-24 21:24:19 +0000
+
+
+Started GET "/assets/examples.js?body=1" for 127.0.0.1 at 2015-11-24 21:24:19 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-24 21:24:19 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-24 21:24:19 +0000
+
+
+Started GET "/assets/octicons.woff" for 127.0.0.1 at 2015-11-24 21:24:19 +0000
+
+
+Started GET "/new" for 127.0.0.1 at 2015-11-24 21:24:22 +0000
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (18.2ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2015-11-24 21:24:22 +0000
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.6ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.4ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.6ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (10.3ms)
+
+
+Started GET "/github/" for 127.0.0.1 at 2015-11-24 21:25:26 +0000
+Processing by GithubController#index as HTML
+  Rendered github/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::MissingTemplate - Missing partial partials/header with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/amywhitney/github-prototyping-app/app/views"
+:
+  (gem) actionpack-4.0.1/lib/action_view/template/error.rb:48:in `initialize'
+  (gem) actionpack-4.0.1/lib/action_view/path_set.rb:46:in `find'
+  (gem) actionpack-4.0.1/lib/action_view/lookup_context.rb:115:in `find'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/partial_renderer.rb:383:in `find_template'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/partial_renderer.rb:377:in `find_partial'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/partial_renderer.rb:263:in `render'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/renderer.rb:47:in `render_partial'
+  (gem) actionpack-4.0.1/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+  app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb___4025440042966977760_70277377239500'
+  (gem) actionpack-4.0.1/lib/action_view/template.rb:143:in `block in render'
+  (gem) activesupport-4.0.1/lib/active_support/notifications.rb:161:in `instrument'
+  (gem) actionpack-4.0.1/lib/action_view/template.rb:141:in `render'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:17:in `render'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/renderer.rb:42:in `render_template'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/renderer.rb:23:in `render'
+  (gem) actionpack-4.0.1/lib/abstract_controller/rendering.rb:127:in `_render_template'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  (gem) actionpack-4.0.1/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  (gem) actionpack-4.0.1/lib/abstract_controller/rendering.rb:97:in `render'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/rendering.rb:16:in `render'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  (gem) activesupport-4.0.1/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  (gem) activesupport-4.0.1/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  (gem) activerecord-4.0.1/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  (gem) actionpack-4.0.1/lib/abstract_controller/base.rb:189:in `process_action'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  (gem) actionpack-4.0.1/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  (gem) activesupport-4.0.1/lib/active_support/callbacks.rb:403:in `_run__2206084931358990469__process_action__callbacks'
+  (gem) activesupport-4.0.1/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  (gem) actionpack-4.0.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  (gem) activesupport-4.0.1/lib/active_support/notifications.rb:159:in `block in instrument'
+  (gem) activesupport-4.0.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  (gem) activesupport-4.0.1/lib/active_support/notifications.rb:159:in `instrument'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  (gem) activerecord-4.0.1/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  (gem) actionpack-4.0.1/lib/abstract_controller/base.rb:136:in `process'
+  (gem) actionpack-4.0.1/lib/abstract_controller/rendering.rb:44:in `process'
+  (gem) actionpack-4.0.1/lib/action_controller/metal.rb:195:in `dispatch'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  (gem) actionpack-4.0.1/lib/action_controller/metal.rb:231:in `block in action'
+  (gem) actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  (gem) actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:48:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/journey/router.rb:71:in `block in call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/journey/router.rb:59:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:680:in `call'
+  (gem) rack-1.5.2/lib/rack/etag.rb:23:in `call'
+  (gem) rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+  (gem) rack-1.5.2/lib/rack/head.rb:11:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/flash.rb:241:in `call'
+  (gem) rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+  (gem) rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  (gem) activerecord-4.0.1/lib/active_record/query_cache.rb:36:in `call'
+  (gem) activerecord-4.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  (gem) activerecord-4.0.1/lib/active_record/migration.rb:369:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  (gem) activesupport-4.0.1/lib/active_support/callbacks.rb:373:in `_run__1909039458617566694__call__callbacks'
+  (gem) activesupport-4.0.1/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  (gem) better_errors-0.8.0/lib/better_errors/middleware.rb:84:in `protected_app_call'
+  (gem) better_errors-0.8.0/lib/better_errors/middleware.rb:79:in `better_errors_call'
+  (gem) better_errors-0.8.0/lib/better_errors/middleware.rb:56:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  (gem) railties-4.0.1/lib/rails/rack/logger.rb:38:in `call_app'
+  (gem) railties-4.0.1/lib/rails/rack/logger.rb:20:in `block in call'
+  (gem) activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  (gem) activesupport-4.0.1/lib/active_support/tagged_logging.rb:25:in `tagged'
+  (gem) activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `tagged'
+  (gem) railties-4.0.1/lib/rails/rack/logger.rb:20:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  (gem) rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  (gem) rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  (gem) activesupport-4.0.1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  (gem) rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/static.rb:64:in `call'
+  (gem) rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  (gem) railties-4.0.1/lib/rails/engine.rb:511:in `call'
+  (gem) railties-4.0.1/lib/rails/application.rb:97:in `call'
+  (gem) rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  (gem) rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  (gem) rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/70277386864840/variables" for 127.0.0.1 at 2015-11-24 21:25:26 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-24 21:29:51 +0000
+Processing by GithubController#index as HTML
+  Rendered github/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 79ms
+
+ActionView::MissingTemplate - Missing partial github/header, application/header with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/amywhitney/github-prototyping-app/app/views"
+:
+  (gem) actionpack-4.0.1/lib/action_view/template/error.rb:48:in `initialize'
+  (gem) actionpack-4.0.1/lib/action_view/path_set.rb:46:in `find'
+  (gem) actionpack-4.0.1/lib/action_view/lookup_context.rb:115:in `find'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/partial_renderer.rb:383:in `find_template'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/partial_renderer.rb:377:in `find_partial'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/partial_renderer.rb:263:in `render'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/renderer.rb:47:in `render_partial'
+  (gem) actionpack-4.0.1/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+  app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb___429181996654657472_70190053582980'
+  (gem) actionpack-4.0.1/lib/action_view/template.rb:143:in `block in render'
+  (gem) activesupport-4.0.1/lib/active_support/notifications.rb:161:in `instrument'
+  (gem) actionpack-4.0.1/lib/action_view/template.rb:141:in `render'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:17:in `render'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/renderer.rb:42:in `render_template'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/renderer.rb:23:in `render'
+  (gem) actionpack-4.0.1/lib/abstract_controller/rendering.rb:127:in `_render_template'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  (gem) actionpack-4.0.1/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  (gem) actionpack-4.0.1/lib/abstract_controller/rendering.rb:97:in `render'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/rendering.rb:16:in `render'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  (gem) activesupport-4.0.1/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  (gem) activesupport-4.0.1/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  (gem) activerecord-4.0.1/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  (gem) actionpack-4.0.1/lib/abstract_controller/base.rb:189:in `process_action'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  (gem) actionpack-4.0.1/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  (gem) activesupport-4.0.1/lib/active_support/callbacks.rb:403:in `_run__2190881874666434372__process_action__callbacks'
+  (gem) activesupport-4.0.1/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  (gem) actionpack-4.0.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  (gem) activesupport-4.0.1/lib/active_support/notifications.rb:159:in `block in instrument'
+  (gem) activesupport-4.0.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  (gem) activesupport-4.0.1/lib/active_support/notifications.rb:159:in `instrument'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  (gem) activerecord-4.0.1/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  (gem) actionpack-4.0.1/lib/abstract_controller/base.rb:136:in `process'
+  (gem) actionpack-4.0.1/lib/abstract_controller/rendering.rb:44:in `process'
+  (gem) actionpack-4.0.1/lib/action_controller/metal.rb:195:in `dispatch'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  (gem) actionpack-4.0.1/lib/action_controller/metal.rb:231:in `block in action'
+  (gem) actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  (gem) actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:48:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/journey/router.rb:71:in `block in call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/journey/router.rb:59:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:680:in `call'
+  (gem) rack-1.5.2/lib/rack/etag.rb:23:in `call'
+  (gem) rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+  (gem) rack-1.5.2/lib/rack/head.rb:11:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/flash.rb:241:in `call'
+  (gem) rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+  (gem) rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  (gem) activerecord-4.0.1/lib/active_record/query_cache.rb:36:in `call'
+  (gem) activerecord-4.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  (gem) activerecord-4.0.1/lib/active_record/migration.rb:369:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  (gem) activesupport-4.0.1/lib/active_support/callbacks.rb:373:in `_run__3866573504028555842__call__callbacks'
+  (gem) activesupport-4.0.1/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  (gem) better_errors-0.8.0/lib/better_errors/middleware.rb:84:in `protected_app_call'
+  (gem) better_errors-0.8.0/lib/better_errors/middleware.rb:79:in `better_errors_call'
+  (gem) better_errors-0.8.0/lib/better_errors/middleware.rb:56:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  (gem) railties-4.0.1/lib/rails/rack/logger.rb:38:in `call_app'
+  (gem) railties-4.0.1/lib/rails/rack/logger.rb:20:in `block in call'
+  (gem) activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  (gem) activesupport-4.0.1/lib/active_support/tagged_logging.rb:25:in `tagged'
+  (gem) activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `tagged'
+  (gem) railties-4.0.1/lib/rails/rack/logger.rb:20:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  (gem) rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  (gem) rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  (gem) activesupport-4.0.1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  (gem) rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/static.rb:64:in `call'
+  (gem) rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  (gem) railties-4.0.1/lib/rails/engine.rb:511:in `call'
+  (gem) railties-4.0.1/lib/rails/application.rb:97:in `call'
+  (gem) rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  (gem) rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  (gem) rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/70190053243040/variables" for 127.0.0.1 at 2015-11-24 21:29:52 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-24 21:30:17 +0000
+Processing by GithubController#index as HTML
+  Rendered github/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::MissingTemplate - Missing partial github/_header, application/_header with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/amywhitney/github-prototyping-app/app/views"
+:
+  (gem) actionpack-4.0.1/lib/action_view/template/error.rb:48:in `initialize'
+  (gem) actionpack-4.0.1/lib/action_view/path_set.rb:46:in `find'
+  (gem) actionpack-4.0.1/lib/action_view/lookup_context.rb:115:in `find'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/partial_renderer.rb:383:in `find_template'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/partial_renderer.rb:377:in `find_partial'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/partial_renderer.rb:263:in `render'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/renderer.rb:47:in `render_partial'
+  (gem) actionpack-4.0.1/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___429181996654657472_70190053063160'
+  (gem) actionpack-4.0.1/lib/action_view/template.rb:143:in `block in render'
+  (gem) activesupport-4.0.1/lib/active_support/notifications.rb:161:in `instrument'
+  (gem) actionpack-4.0.1/lib/action_view/template.rb:141:in `render'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:17:in `render'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/renderer.rb:42:in `render_template'
+  (gem) actionpack-4.0.1/lib/action_view/renderer/renderer.rb:23:in `render'
+  (gem) actionpack-4.0.1/lib/abstract_controller/rendering.rb:127:in `_render_template'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  (gem) actionpack-4.0.1/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  (gem) actionpack-4.0.1/lib/abstract_controller/rendering.rb:97:in `render'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/rendering.rb:16:in `render'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  (gem) activesupport-4.0.1/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  (gem) activesupport-4.0.1/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  (gem) activerecord-4.0.1/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  (gem) actionpack-4.0.1/lib/abstract_controller/base.rb:189:in `process_action'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+  (gem) actionpack-4.0.1/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  (gem) activesupport-4.0.1/lib/active_support/callbacks.rb:403:in `_run__2190881874666434372__process_action__callbacks'
+  (gem) activesupport-4.0.1/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  (gem) actionpack-4.0.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  (gem) activesupport-4.0.1/lib/active_support/notifications.rb:159:in `block in instrument'
+  (gem) activesupport-4.0.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  (gem) activesupport-4.0.1/lib/active_support/notifications.rb:159:in `instrument'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  (gem) activerecord-4.0.1/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  (gem) actionpack-4.0.1/lib/abstract_controller/base.rb:136:in `process'
+  (gem) actionpack-4.0.1/lib/abstract_controller/rendering.rb:44:in `process'
+  (gem) actionpack-4.0.1/lib/action_controller/metal.rb:195:in `dispatch'
+  (gem) actionpack-4.0.1/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  (gem) actionpack-4.0.1/lib/action_controller/metal.rb:231:in `block in action'
+  (gem) actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  (gem) actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:48:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/journey/router.rb:71:in `block in call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/journey/router.rb:59:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:680:in `call'
+  (gem) rack-1.5.2/lib/rack/etag.rb:23:in `call'
+  (gem) rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+  (gem) rack-1.5.2/lib/rack/head.rb:11:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/flash.rb:241:in `call'
+  (gem) rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+  (gem) rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  (gem) activerecord-4.0.1/lib/active_record/query_cache.rb:36:in `call'
+  (gem) activerecord-4.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  (gem) activerecord-4.0.1/lib/active_record/migration.rb:369:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  (gem) activesupport-4.0.1/lib/active_support/callbacks.rb:373:in `_run__3866573504028555842__call__callbacks'
+  (gem) activesupport-4.0.1/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  (gem) better_errors-0.8.0/lib/better_errors/middleware.rb:84:in `protected_app_call'
+  (gem) better_errors-0.8.0/lib/better_errors/middleware.rb:79:in `better_errors_call'
+  (gem) better_errors-0.8.0/lib/better_errors/middleware.rb:56:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  (gem) railties-4.0.1/lib/rails/rack/logger.rb:38:in `call_app'
+  (gem) railties-4.0.1/lib/rails/rack/logger.rb:20:in `block in call'
+  (gem) activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  (gem) activesupport-4.0.1/lib/active_support/tagged_logging.rb:25:in `tagged'
+  (gem) activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `tagged'
+  (gem) railties-4.0.1/lib/rails/rack/logger.rb:20:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  (gem) rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  (gem) rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  (gem) activesupport-4.0.1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  (gem) rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  (gem) actionpack-4.0.1/lib/action_dispatch/middleware/static.rb:64:in `call'
+  (gem) rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  (gem) railties-4.0.1/lib/rails/engine.rb:511:in `call'
+  (gem) railties-4.0.1/lib/rails/application.rb:97:in `call'
+  (gem) rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  (gem) rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  (gem) rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/70190052307580/variables" for 127.0.0.1 at 2015-11-24 21:30:17 +0000
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2015-11-24 21:30:18 +0000
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.0ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (24.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-24 21:30:27 +0000
+Processing by GithubController#index as HTML
+  Rendered github/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-24 21:30:27 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-24 21:30:27 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-24 21:30:27 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-24 21:30:28 +0000
+
+
+Started GET "/assets/examples.js?body=1" for 127.0.0.1 at 2015-11-24 21:30:28 +0000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-11-24 21:30:28 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-24 21:30:28 +0000
+
+
+Started GET "/assets/octicons.woff" for 127.0.0.1 at 2015-11-24 21:30:28 +0000
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2015-11-24 21:30:28 +0000
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (20.1ms)
+
+
+Started GET "/github/" for 127.0.0.1 at 2015-11-25 10:43:50 +0000
+
+ActionController::RoutingError (No route matches [GET] "/github"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /opt/rubies/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /opt/rubies/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (19.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-25 10:43:54 +0000
+Processing by GithubController#index as HTML
+  Rendered github/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 11ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-25 10:43:54 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-25 10:43:54 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-25 10:43:54 +0000
+
+
+Started GET "/assets/examples.js?body=1" for 127.0.0.1 at 2015-11-25 10:43:54 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-25 10:43:54 +0000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-11-25 10:43:54 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-25 10:43:54 +0000
+
+
+Started GET "/assets/octicons.woff" for 127.0.0.1 at 2015-11-25 10:43:54 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-25 10:44:25 +0000
+Processing by GithubController#index as HTML
+  Rendered github/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-25 10:44:25 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-25 10:44:25 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-25 10:44:25 +0000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-11-25 10:44:25 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-25 10:44:25 +0000
+
+
+Started GET "/assets/examples.js?body=1" for 127.0.0.1 at 2015-11-25 10:44:25 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-25 10:44:25 +0000
+
+
+Started GET "/assets/octicons.woff" for 127.0.0.1 at 2015-11-25 10:44:25 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-25 10:44:45 +0000
+Processing by GithubController#index as HTML
+  Rendered github/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-25 10:44:45 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-25 10:44:45 +0000
+
+
+Started GET "/assets/examples.js?body=1" for 127.0.0.1 at 2015-11-25 10:44:45 +0000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-11-25 10:44:45 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-25 10:44:45 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-25 10:44:45 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-25 10:44:45 +0000
+
+
+Started GET "/assets/octicons.woff" for 127.0.0.1 at 2015-11-25 10:44:45 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-25 10:45:40 +0000
+Processing by GithubController#index as HTML
+  Rendered github/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-25 10:45:40 +0000
+
+
+Started GET "/assets/examples.js?body=1" for 127.0.0.1 at 2015-11-25 10:45:40 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-25 10:45:40 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-25 10:45:40 +0000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-11-25 10:45:40 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-25 10:45:40 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-25 10:45:40 +0000
+
+
+Started GET "/assets/octicons.woff" for 127.0.0.1 at 2015-11-25 10:45:40 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-25 10:45:56 +0000
+Processing by GithubController#index as HTML
+  Rendered github/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-25 10:45:56 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-25 10:45:56 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-25 10:45:56 +0000
+
+
+Started GET "/assets/examples.js?body=1" for 127.0.0.1 at 2015-11-25 10:45:56 +0000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-11-25 10:45:56 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-25 10:45:56 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-25 10:45:56 +0000
+
+
+Started GET "/assets/octicons.woff" for 127.0.0.1 at 2015-11-25 10:45:56 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-25 10:52:55 +0000
+Processing by GithubController#index as HTML
+  Rendered github/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-11-25 10:52:56 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-25 10:52:56 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-25 10:52:56 +0000
+
+
+Started GET "/assets/examples.js?body=1" for 127.0.0.1 at 2015-11-25 10:52:56 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-25 10:52:56 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-25 10:52:56 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-25 10:52:56 +0000
+
+
+Started GET "/assets/octicons.woff" for 127.0.0.1 at 2015-11-25 10:52:56 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-25 10:53:19 +0000
+Processing by GithubController#index as HTML
+  Rendered github/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-25 10:53:19 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-25 10:53:19 +0000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-11-25 10:53:19 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-25 10:53:19 +0000
+
+
+Started GET "/assets/examples.js?body=1" for 127.0.0.1 at 2015-11-25 10:53:19 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-25 10:53:19 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-25 10:53:19 +0000
+
+
+Started GET "/assets/octicons.woff" for 127.0.0.1 at 2015-11-25 10:53:19 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-25 10:53:35 +0000
+Processing by GithubController#index as HTML
+  Rendered github/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-25 10:53:35 +0000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-11-25 10:53:35 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-25 10:53:35 +0000
+
+
+Started GET "/assets/examples.js?body=1" for 127.0.0.1 at 2015-11-25 10:53:35 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-25 10:53:35 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-25 10:53:35 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-25 10:53:35 +0000
+
+
+Started GET "/assets/octicons.woff" for 127.0.0.1 at 2015-11-25 10:53:35 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-25 10:54:34 +0000
+Processing by GithubController#index as HTML
+  Rendered github/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-25 10:54:34 +0000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-11-25 10:54:34 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-25 10:54:34 +0000
+
+
+Started GET "/assets/examples.js?body=1" for 127.0.0.1 at 2015-11-25 10:54:34 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-25 10:54:34 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-25 10:54:34 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-25 10:54:34 +0000
+
+
+Started GET "/assets/octicons.woff" for 127.0.0.1 at 2015-11-25 10:54:34 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-25 10:59:16 +0000
+Processing by GithubController#index as HTML
+  Rendered github/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-25 10:59:17 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-25 10:59:17 +0000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-11-25 10:59:17 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-25 10:59:17 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-25 10:59:17 +0000
+
+
+Started GET "/assets/examples.js?body=1" for 127.0.0.1 at 2015-11-25 10:59:17 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-25 10:59:17 +0000
+
+
+Started GET "/assets/octicons.woff" for 127.0.0.1 at 2015-11-25 10:59:17 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-25 11:25:33 +0000
+Processing by GithubController#index as HTML
+  Rendered github/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-25 11:25:34 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-25 11:25:34 +0000
+
+
+Started GET "/assets/examples.js?body=1" for 127.0.0.1 at 2015-11-25 11:25:34 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-25 11:25:34 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-25 11:25:34 +0000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-11-25 11:25:34 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-25 11:25:34 +0000
+
+
+Started GET "/assets/octicons.woff" for 127.0.0.1 at 2015-11-25 11:25:34 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-25 11:25:36 +0000
+Processing by GithubController#index as HTML
+  Rendered github/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-11-25 11:25:37 +0000
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-11-25 11:25:37 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-11-25 11:25:37 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-11-25 11:25:37 +0000
+
+
+Started GET "/assets/examples.js?body=1" for 127.0.0.1 at 2015-11-25 11:25:37 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-11-25 11:25:37 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-11-25 11:25:37 +0000
+
+
+Started GET "/assets/octicons.woff" for 127.0.0.1 at 2015-11-25 11:25:37 +0000

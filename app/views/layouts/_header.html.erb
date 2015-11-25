@@ -1,0 +1,120 @@
+<div class="header header-logged-in true" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-invertocat" href="https://github.com/orgs/github/dashboard" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github"></span>
+    </a>
+
+    <div class="site-search repo-scope" role="search">
+      <!-- </textarea> --><!-- '"` -->
+      <form accept-charset="UTF-8" action="/amosie/Prototyping-app/search" method="get">
+        <div style="margin:0;padding:0;display:inline">
+          <input name="utf8" type="hidden" value="✓">
+        </div>
+        <label class="js-chromeless-input-container form-control">
+          <input type="text" class="chromeless-input" placeholder="Search" aria-label="Search this repository" tabindex="1" autocapitalize="off">
+        </label>
+      </form>
+    </div>
+
+    <ul class="header-nav left" role="navigation">
+      <li class="header-nav-item">
+        <a href="/pulls" class="header-nav-link">
+          Pull requests
+        </a>
+      </li>
+      <li class="header-nav-item">
+        <a href="/issues" class="header-nav-link">
+          Issues
+        </a>
+      </li>
+      <li class="header-nav-item">
+        <a class="header-nav-link" href="https://gist.github.com/">
+          Gist
+        </a>
+      </li>
+    </ul>
+
+    <ul class="header-nav user-nav right" id="user-links">
+      <li class="header-nav-item">
+        <a href="/notifications" aria-label="You have unread notifications" class="header-nav-link notification-indicator tooltipped tooltipped-s">
+          <span class="mail-status unread"></span>
+          <span class="octicon octicon-bell"></span>
+        </a>
+      </li>
+
+      <li class="header-nav-item dropdown js-menu-container">
+        <a class="header-nav-link tooltipped tooltipped-s" href="/new" aria-label="Create new…">
+          <span class="octicon octicon-plus left"></span>
+          <span class="dropdown-caret"></span>
+        </a>
+
+        <div class="dropdown-menu-content js-menu-content">
+          <ul class="dropdown-menu dropdown-menu-sw">
+            <a class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
+              New repository
+            </a>
+            <a class="dropdown-item" href="https://gist.github.com/" data-ga-click="Header, create new gist">
+              New gist
+            </a>
+            <a class="dropdown-item" href="/organizations/new" data-ga-click="Header, create new organization">
+              New organization
+            </a>
+
+            <div class="dropdown-divider"></div>
+            <div class="dropdown-header">
+              <span title="user/Prototyping-app">This repository</span>
+            </div>
+            <a class="dropdown-item" href="#">
+              New collaborator
+            </a>
+          </ul>
+        </div>
+      </li>
+
+      <li class="header-nav-item dropdown">
+        <a class="header-nav-link name tooltipped tooltipped-s" href="#" aria-label="View profile and more">
+          <img alt="@amosie" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/2235325?v=3&amp;s=40" width="20">
+          <span class="dropdown-caret"></span>
+        </a>
+
+        <div class="dropdown-menu-content">
+          <div class="dropdown-menu dropdown-menu-sw">
+            <div class="dropdown-header header-nav-current-user css-truncate">
+              Signed in as <strong class="css-truncate-target">amosie</strong>
+            </div>
+            <div class="dropdown-divider"></div>
+
+            <a class="dropdown-item" href="#">
+              Your profile
+            </a>
+            <a class="dropdown-item" href="#">
+              Your stars
+            </a>
+            <a class="dropdown-item" href="#">
+              Explore
+            </a>
+            <a class="dropdown-item" href="#">
+              Help
+            </a>
+            <div class="dropdown-divider"></div>
+
+            <a class="dropdown-item" href="#">
+            Settings
+            </a>
+
+            <!-- </textarea> --><!-- '"` -->
+            <form accept-charset="UTF-8" action="/logout" class="logout-form" method="post">
+              <div style="margin:0;padding:0;display:inline">
+                <input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden">
+              </div>
+              <button class="dropdown-item dropdown-signout">
+                Sign out
+              </button>
+            </form>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

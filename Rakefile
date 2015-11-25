@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-GovukPrototypingRails::Application.load_tasks
+GithubPrototypingApp::Application.load_tasks
