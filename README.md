@@ -89,7 +89,7 @@ To do this you need to edit `config/routes.rb`.
 
 Open this file and change the site root by replacing:
 
-`root 'examples#index'`
+`root 'github#index'`
 
 with:
 
